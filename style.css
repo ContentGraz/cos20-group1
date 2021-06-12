@@ -1,0 +1,206 @@
+body {
+  text-align:center;
+  background:#ACB6BD;
+}
+
+#header{
+	background: #FFFFFF;
+	width: 80%;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+
+#nav {
+	 font-family: 'Roboto', sans-serif;
+	 width: 80%;
+     background:#5B5B5B;
+	 font-size:14pt;
+	 display:inline-block;
+	 letter-spacing:1px;
+	 text-transform: uppercase;}
+
+#nav ul {
+     margin: auto 0;
+     padding: 0;
+     list-style: none;
+	 text-align:center;
+
+}
+ 
+#nav ul li {
+	display:inline-block;
+
+}
+ 
+#nav ul li a {
+     padding: 10px 15px;
+     display: block;
+     color: #fff;
+     text-decoration: none;
+}
+ 
+#nav ul li a:hover {
+     background: #90A4C5;
+     color:#FFF;
+}
+
+
+#content{
+	width:80%;
+    font-family: 'Roboto', sans-serif;
+	color:#423E3E;
+	margin:auto;
+	background:#FFF;
+	padding: 20px 0px 20px 0px;
+	}
+	
+
+h1 {
+  font-size: 40pt;
+  letter-spacing: 0.7pt;	
+  font-family: 'DM Serif Text', serif;
+  line-height:0.5;
+  padding-bottom:30px;
+  color:#90A4C5;
+  }
+  
+h2 {
+  font-size:18pt;
+  letter-spacing: 0.7pt;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom:30px;
+  text-transform: uppercase;
+  color:#90A4C5;
+}
+
+h3 {
+  font-size:14pt;
+  padding-top:30px;	
+  padding-bottom:30px;
+  color:#90A4C5;
+  text-transform: uppercase;
+}
+  
+p {
+  line-height: 30px;
+  font-size:13pt;
+  margin-left: 55px;
+  padding-right:30px;
+}
+
+ul {
+  line-height: 25px;
+  font-size:14pt;
+  padding-right:30px;
+  list-style: inside;}
+
+ol {
+  line-height: 25px;
+  font-size:14pt;
+  padding-right:30px;
+
+}
+
+ 
+.iframe{
+frameborder:0;	
+	
+}
+
+#footer {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px 0px 20px 0px;
+  background-color: #555;
+  color:white;
+  line-height:16px;
+  clear: left;
+  width: 80%;
+  margin: auto;
+}
+
+
+
+img{
+	width: 80%;
+	
+}
+
+.hobby-cl-logo{
+	width: 20%;
+	
+}
+.button{
+	padding: 5px 20px 5px 20px;
+	text-decoration: none;
+	color:#444;
+	font-size: 14pt;
+	text-transform: uppercase;
+	letter-spacing: 0.7pt;
+	
+}
+
+.button:hover{
+	background: #90A4C5;
+	color: white;
+	border-color:#90A4C5;}
+	
+#materials{
+
+	padding: 20px 0 50px 0;
+	margin-top:50px;
+	margin-bottom: 100px;
+	width: 100%;
+
+}
+		
+
+
+@media screen and (max-width:700px)
+
+{
+
+#nav{
+	margin:auto;
+	align:center;
+	height:auto;
+	display:block;
+	line-height:1;	}
+	
+
+#nav ul li {
+	 width:100%;
+     display:block;
+     text-align: center;
+	 border-bottom:2px solid #FFF;
+	 border-bottom-width:100%; 
+	 border-left:hidden;
+	 border-top:hidden;
+	 border-right:hidden;}
+
+
+.hobby-cl-logo{
+	width: 80%;}
+	
+	
+.button{
+	font-size:20pt;
+	line-height: 5;	}
+
+#content{
+		font-size:14pt;
+		
+	}
+
+h1{
+	font-size:30pt;
+	line-height:2;	}
+	
+h2{
+	font-size:20pt;
+	padding: 0px 20px 0 20px}
+
+}
+	
